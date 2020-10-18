@@ -1,14 +1,22 @@
-# MESA: Meta-sampler for imbalanced learning
+<h1 align="center"> MESA: Meta-sampler for imbalanced learning </h1>
 
-![MESA](https://img.shields.io/badge/ZhiningLiu1998-MESA-orange)
+<p align="center">
+  <img src="https://img.shields.io/badge/ZhiningLiu1998-MESA-orange">
+  <img src="https://img.shields.io/github/stars/ZhiningLiu1998/mesa">
+  <img src="https://img.shields.io/github/forks/ZhiningLiu1998/mesa">
+  <img src="https://img.shields.io/github/issues/ZhiningLiu1998/mesa">
+  <img src="https://img.shields.io/github/license/ZhiningLiu1998/mesa">
+</p>
+
+<h4 align="center"> "MESA: Boost Ensemble Imbalanced Learning with MEta-SAmpler" (NeurIPS 2020, in press).  </h4>
+
+<!-- ![MESA](https://img.shields.io/badge/ZhiningLiu1998-MESA-orange)
 ![Stars](https://img.shields.io/github/stars/ZhiningLiu1998/mesa)
 ![Forks](https://img.shields.io/github/forks/ZhiningLiu1998/mesa)
 ![Issues](https://img.shields.io/github/issues/ZhiningLiu1998/mesa)
-![License](https://img.shields.io/github/license/ZhiningLiu1998/mesa)
+![License](https://img.shields.io/github/license/ZhiningLiu1998/mesa) -->
 
 **MESA is a ***meta-learning-based ensemble learning framework*** for solving class-imbalanced learning problems. It is a task-agnostic general-purpose solution that is able to boost most of the existing machine learning models' performance on imbalanced data.**
-
-This repository is the official implementation of the paper **"MESA: Boost Ensemble Imbalanced Learning with MEta-SAmpler." (NeurIPS 2020, in press).** 
 
 > **NOTE:** The paper will be available through [arXiv](https://arxiv.org/) in a few days. We will provide a link to the .pdf file ASAP.
 
@@ -20,7 +28,7 @@ This repository is the official implementation of the paper **"MESA: Boost Ensem
 @inproceedings{liu2020mesa,
     title={MESA: Boost Ensemble Imbalanced Learning with MEta-SAmpler},
     author={Liu, Zhining and Wei, Pengfei and Jiang, Jing and Cao, Wei and Bian, Jiang and Chang, Yi},
-    booktitle={Advances in Neural Information Processing Systems},
+    booktitle={Conference on Neural Information Processing Systems},
     year={2020},
 }
 ```
