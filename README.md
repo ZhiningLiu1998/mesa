@@ -57,7 +57,7 @@ We introduce a novel ensemble imbalanced learning (EIL) framework named MESA. It
 
 The figure below gives an overview of the MESA framework. 
 
-![image](figure/framework.png)
+![image](https://github.com/ZhiningLiu1998/figures/blob/master/mesa/framework.png)
 
 ## Pros and Cons of MESA
 
@@ -211,34 +211,34 @@ You can use [mesa-example.ipynb](https://github.com/ZhiningLiu1998/mesa/blob/mas
 ## From [mesa-example.ipynb](https://github.com/ZhiningLiu1998/mesa/blob/master/mesa-example.ipynb)
 
 ### Class distribution of Mammography dataset
-![image](figure/class-distribution.png)
+![image](https://github.com/ZhiningLiu1998/figures/blob/master/mesa/class-distribution.png)
 
 ### Visualize the meta-training process
-<!-- ![image](figure/meta-training-process.png) -->
+<!-- ![image](https://github.com/ZhiningLiu1998/figures/blob/master/mesa/meta-training-process.png) -->
 <p align="center">
-  <img src="figure/meta-training-process.png" />
+  <img src="https://github.com/ZhiningLiu1998/figures/blob/master/mesa/meta-training-process.png" />
 </p>
 
 ### Comparison with baseline methods
-![image](figure/result.png)
+![image](https://github.com/ZhiningLiu1998/figures/blob/master/mesa/result.png)
 
 ## Other results
 
 ### Dataset description
 
-![image](figure/datasets.png)
+![image](https://github.com/ZhiningLiu1998/figures/blob/master/mesa/datasets.png)
 
 ### Comparisons of MESA with under-sampling-based EIL methods
 
-![image](figure/comp-USEIL.png)
+![image](https://github.com/ZhiningLiu1998/figures/blob/master/mesa/comp-USEIL.png)
 
 ### Comparisons of MESA with over-sampling-based EIL methods
 
-![image](figure/comp-OSEIL.png)
+![image](https://github.com/ZhiningLiu1998/figures/blob/master/mesa/comp-OSEIL.png)
 
 ### Comparisons of MESA with resampling-based EIL methods
 
-![image](figure/comp-resample.png)
+![image](https://github.com/ZhiningLiu1998/figures/blob/master/mesa/comp-resample.png)
 
 
 
