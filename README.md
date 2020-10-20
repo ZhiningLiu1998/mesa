@@ -8,17 +8,13 @@
   <img src="https://img.shields.io/github/license/ZhiningLiu1998/mesa">
 </p>
 
-<h4 align="center"> "MESA: Boost Ensemble Imbalanced Learning with MEta-SAmpler" (NeurIPS 2020, in press).  </h4>
-
-<!-- ![MESA](https://img.shields.io/badge/ZhiningLiu1998-MESA-orange)
-![Stars](https://img.shields.io/github/stars/ZhiningLiu1998/mesa)
-![Forks](https://img.shields.io/github/forks/ZhiningLiu1998/mesa)
-![Issues](https://img.shields.io/github/issues/ZhiningLiu1998/mesa)
-![License](https://img.shields.io/github/license/ZhiningLiu1998/mesa) -->
+<h4 align="center"> "MESA: Boost Ensemble Imbalanced Learning with MEta-SAmpler" (NeurIPS 2020, in press). 
+[<a href="https://arxiv.org/abs/2010.08830">arXiv</a>][<a href="https://studio.slideslive.com/web_recorder/share/20201020T134559Z__NeurIPS_posters__17343__mesa-effective-ensemble-imbal?s=d3745afc-cfcf-4d60-9f34-63d3d811b55f">Video</a>]
+</h4>
 
 **MESA is a ***meta-learning-based ensemble learning framework*** for solving class-imbalanced learning problems. It is a task-agnostic general-purpose solution that is able to boost most of the existing machine learning models' performance on imbalanced data.**
 
-> **NOTE:** The paper will be available through [arXiv](https://arxiv.org/) in a few days. We will provide a link to the .pdf file ASAP.
+<!-- > **NOTE:** The paper will be available through [arXiv](https://arxiv.org/) in a few days. We will provide a link to the .pdf file ASAP. -->
 
 # Cite Us
 
