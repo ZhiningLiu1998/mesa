@@ -31,6 +31,8 @@
 
 # Table of Contents
 
+- [Cite Us](#cite-us)
+- [Table of Contents](#table-of-contents)
 - [Background](#background)
   - [About MESA](#about-mesa)
   - [Pros and Cons of MESA](#pros-and-cons-of-mesa)
@@ -40,7 +42,14 @@
   - [Running mesa-example.ipynb](#running-mesa-exampleipynb)
 - [Visualization and Results](#visualization-and-results)
   - [From mesa-example.ipynb](#from-mesa-exampleipynb)
+    - [Class distribution of Mammography dataset](#class-distribution-of-mammography-dataset)
+    - [Visualize the meta-training process](#visualize-the-meta-training-process)
+    - [Comparison with baseline methods](#comparison-with-baseline-methods)
   - [Other results](#other-results)
+    - [Dataset description](#dataset-description)
+    - [Comparisons of MESA with under-sampling-based EIL methods](#comparisons-of-mesa-with-under-sampling-based-eil-methods)
+    - [Comparisons of MESA with over-sampling-based EIL methods](#comparisons-of-mesa-with-over-sampling-based-eil-methods)
+    - [Comparisons of MESA with resampling-based EIL methods](#comparisons-of-mesa-with-resampling-based-eil-methods)
 - [Miscellaneous](#miscellaneous)
 - [References](#references)
 
@@ -85,14 +94,22 @@ Small datasets may cause the obtained error distribution statistics to be inaccu
 - [pandas](https://pandas.pydata.org/) (>=0.23.4)
 - [numpy](https://numpy.org/) (>=1.11)
 - [scikit-learn](https://scikit-learn.org/stable/) (>=0.20.1)
-- [imbalanced-learn](https://imbalanced-learn.readthedocs.io/en/stable/index.html) (=0.5.0, optional)
-- [jupyter-argparser](https://pypi.org/project/jupyter-argparser/0.0.5/) (>=0.0.5, optional)
+- [imbalanced-learn](https://imbalanced-learn.readthedocs.io/en/stable/index.html) (=0.5.0, optional, for baseline methods)
 
 To install requirements, run:
 
 ```Shell
 pip install -r requirements.txt
 ```
+
+> **NOTE**: this implementation requires an old version of PyTorch (v1.0.0).
+> You may want to start a new conda environment to run our code. The step-by-step guide is as follows (using torch-cpu for an example):
+> - `conda create --name mesa python=3.7.11`
+> - `conda activate mesa`
+> - `conda install pytorch-cpu==1.0.0 torchvision-cpu==0.2.1 cpuonly -c pytorch`
+> - `pip install -r requirements.txt`
+> 
+> These commands should help you to get ready for running mesa. If you have any further questions, please feel free to open an issue or drop me an email.
 
 # Usage
 
@@ -193,7 +210,6 @@ optional arguments:
 
 ## Running [mesa-example.ipynb](https://github.com/ZhiningLiu1998/mesa/blob/master/mesa-example.ipynb)
 
-Note that running jupyter notebook with `argparse` requires [jupyter-argparser](https://pypi.org/project/jupyter-argparser/0.0.5/) (>=0.0.5) dependency.
 We include a highly imbalanced dataset [Mammography](https://imbalanced-learn.readthedocs.io/en/stable/generated/imblearn.datasets.fetch_datasets.html#imblearn.datasets.fetch_datasets) (#majority class instances = 10,923, #minority class instances = 260, imbalance ratio = 42.012) and its variants with flip label noise for quick testing and visualization of MESA and other baselines. 
 You can use [mesa-example.ipynb](https://github.com/ZhiningLiu1998/mesa/blob/master/mesa-example.ipynb) to quickly:
 - conduct a comparative experiment
