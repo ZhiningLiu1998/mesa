@@ -1,16 +1,45 @@
 <h1 align="center"> MESA: Meta-sampler for imbalanced learning </h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ZhiningLiu1998-MESA-orange">
+  <!-- <img src="https://img.shields.io/badge/ZhiningLiu1998-MESA-orange">
   <img src="https://img.shields.io/github/stars/ZhiningLiu1998/mesa">
   <img src="https://img.shields.io/github/forks/ZhiningLiu1998/mesa">
-  <img src="https://img.shields.io/github/issues/ZhiningLiu1998/mesa">
-  <img src="https://img.shields.io/github/license/ZhiningLiu1998/mesa">
+  <img src="https://img.shields.io/github/issues/ZhiningLiu1998/mesa">  
+  <img src="https://img.shields.io/github/license/ZhiningLiu1998/mesa"> -->
+  <a href="https://github.com/ZhiningLiu1998/mesa">
+    <img src="https://img.shields.io/badge/ZhiningLiu1998-MESA-orange">
+  </a>
+  <a href="https://github.com/ZhiningLiu1998/mesa/stargazers">
+    <img src="https://img.shields.io/github/stars/ZhiningLiu1998/mesa">
+  </a>
+  <a href="https://github.com/ZhiningLiu1998/mesa/network/members">
+    <img src="https://img.shields.io/github/forks/ZhiningLiu1998/mesa">
+  </a>
+  <a href="https://github.com/ZhiningLiu1998/mesa/issues">
+    <img src="https://img.shields.io/github/issues/ZhiningLiu1998/mesa">
+  </a>
+  <a href="https://github.com/ZhiningLiu1998/mesa/graphs/traffic">
+    <img src="https://visitor-badge.glitch.me/badge?page_id=ZhiningLiu1998.mesa">
+  </a>
+  <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+<a href="https://github.com/ZhiningLiu1998/mesa#contributors-"><img src="https://img.shields.io/badge/all_contributors-1-orange.svg"></a>
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+  <a href="https://github.com/ZhiningLiu1998/mesa/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/ZhiningLiu1998/mesa">
+  </a>
 </p>
 
-<h4 align="center"> "MESA: Boost Ensemble Imbalanced Learning with MEta-SAmpler" (NeurIPS 2020, in press). 
-[<a href="https://arxiv.org/abs/2010.08830">arXiv</a>][<a href="https://studio.slideslive.com/web_recorder/share/20201020T134559Z__NeurIPS_posters__17343__mesa-effective-ensemble-imbal?s=d3745afc-cfcf-4d60-9f34-63d3d811b55f">Video</a>]
-</h4>
+<h3 align="center"> MESA: Boost Ensemble Imbalanced Learning with MEta-SAmpler (NeurIPS 2020)
+</h3>
+
+<h3 align="center">
+Links: 
+<a href="https://papers.nips.cc/paper/2020/file/a64bd53139f71961c5c31a9af03d775e-Paper.pdf">Paper</a> | 
+<a href="https://arxiv.org/pdf/2010.08830.pdf">PDF with Appendix</a> | 
+<a href="https://studio.slideslive.com/web_recorder/share/20201020T134559Z__NeurIPS_posters__17343__mesa-effective-ensemble-imbal?s=d3745afc-cfcf-4d60-9f34-63d3d811b55f">Video</a> | 
+<a href="https://arxiv.org/abs/2010.08830">arXiv</a> | 
+<a href="https://zhuanlan.zhihu.com/p/268539195">Zhihu/知乎</a>
+</h3>
 
 **MESA is a ***meta-learning-based ensemble learning framework*** for solving class-imbalanced learning problems. It is a task-agnostic general-purpose solution that is able to boost most of the existing machine learning models' performance on imbalanced data.**
 
@@ -18,7 +47,7 @@
 
 # Cite Us
 
-**If you find this repository/work helpful, please cite our work:**
+**If you find this repository helpful in your work or research, we would greatly appreciate citations to the following paper:**
 
 ```
 @inproceedings{liu2020mesa,
@@ -52,6 +81,7 @@
     - [Comparisons of MESA with resampling-based EIL methods](#comparisons-of-mesa-with-resampling-based-eil-methods)
 - [Miscellaneous](#miscellaneous)
 - [References](#references)
+  - [Contributors ✨](#contributors-)
 
 
 # Background
